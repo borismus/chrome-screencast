@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $('#video').addEventListener('click', function(event) {
-    shareVideo();
+    alert('Sorry, video sharing is not implemented yet');
+    //shareVideo();
   });
 
   document.addEventListener('keydown', function(event) {
