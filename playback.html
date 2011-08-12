@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Web Flow Playback</title>
+  <link rel="stylesheet" type="text/css" href="playback.css">
+</head>
+
+<body>
+  <div id="container">
+    <img id="image" src="" />
+    <div id="controls_container">
+      <div id="controls">
+        <button id="playpause" class="play"></button>
+        <div id="share">
+          <button id="still"></button>
+          <button id="video"></button>
+        </div>
+        <div id="bottom">
+          <div class="playback">
+            <input type="range" id="slider" value="0" min="0" max="100"></input>
+          </div>
+          <span class="upload">
+            <div class="progress">&nbsp;</div>
+          </span>
+          <span class="shared">
+            <div class="message">Message</div>
+            <div class="view">
+              <div class="link">http://goo.gl/shortlink</div>
+              <div class="copy">Press &#8984;C to copy.</div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='oauth2/oauth2.js'></script>
+  <script src='picasa.js'></script>
+  <script src="playback.js"></script>
+</body>
+
+</html>
