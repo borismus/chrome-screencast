@@ -1,4 +1,5 @@
-var FPS = 5;
+var FPS = 10;
+var QUALITY = 50;
 
 var isRecording = false;
 var timer = null;
@@ -11,7 +12,7 @@ function startRecording() {
   images = [];
   // Set up a timer to regularly get screengrabs
   timer = setInterval(function() {
-    chrome.tabs.captureVisibleTab(null, {quality: 25}, function(img) {
+    chrome.tabs.captureVisibleTab(null, {quality: QUALITY}, function(img) {
       images.push(img);
     });
   }, 1000 / FPS);

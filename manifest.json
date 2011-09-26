@@ -1,6 +1,6 @@
 {
   "name": "Screencast",
-  "version": "0.1",
+  "version": "0.3",
   "description": "Records a video of your chrome browser. Lets you share out the video or stills of the video.",
   "icons": {
     "128": "images/icon.png",
